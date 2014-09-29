@@ -1,0 +1,119 @@
+body, html{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+/*Header Section*/
+
+div.header{
+    width: 100%;
+    background-color: #afafaf;
+    padding-top: 3%;
+    padding-bottom: 1%;
+}
+img.home{
+    width: 9.375%;
+    display: inline-block;
+    margin: 3%;
+    float: left;
+}
+div.hs{
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+    color: white;
+}
+span.plus{
+    position: absolute;
+    top: 3%;
+    left: 90%;
+    font: 600 3em 'Helvetica Neue';
+    color: white;
+}
+p.downArrow{
+    transform: rotate(90deg);
+    position: absolute;
+    top: 7%;
+    left: 65.625%;
+}
+p.smallDown{
+    position: absolute;
+    top: 11.8%;
+    left: 65.3125%;
+}
+
+/*Names Section*/
+
+div.names{
+    width: 100%;
+    background-color: white;
+    padding-top: 25%;
+    padding-bottom: 1%;
+    color: darkgray;
+}
+.large{
+    font: 500 1.5em 'Helvetica Neue';
+    text-align: center;
+    padding: 1%;
+}
+p.arrow{
+    color: #b0b0b0;
+    float: right;
+    font: 600 2em 'Helvetica Neue';
+    margin-top: -10%;
+    margin-right: 3%;
+}
+div.longDivider{
+    border: 1px solid darkgray;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    margin: 0 auto;
+}
+div.bottom{
+    padding-bottom: 27.5%;
+}
+
+/*Info Section*/
+
+div.info{
+    width: 100%;
+    background-color: darkgray;
+    color: white;
+    padding-top: 3%;
+    padding-bottom: 38%;
+}
+p.info{
+    font: 300 1.6em 'Helvetica Neue';
+    padding: 5% 0 0 10%;
+}
+/*Menu Section*/
+div.menu{
+    width: 100%;
+    background-color: #A3A3A3;
+}
+div.section{
+    display: inline-block;
+    width: 19%;
+    text-align: center;
+    padding-top: 3.5%;
+}
+i.fa{
+    font-size: 3em;
+    color: white;
+}
+p.icon{
+    font: 300 1.1em 'Helvetica Neue';
+    color: white;
+}
+div.tasks{
+    background-color: white;
+    padding-right: 2.5%;
+}
+p.tasks, i.tasks{
+    color: #A3A3A3;
+}
